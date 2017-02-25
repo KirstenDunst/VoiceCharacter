@@ -140,7 +140,6 @@
 }
 
 - (IBAction)rescordButtonClicked:(UIButton *)sender {
-    
     if (self.audioEngine.isRunning) {
         [self.audioEngine stop];
         if (_recognitionRequest) {
@@ -163,6 +162,7 @@
     AVAudioSession *audioSession = [AVAudioSession sharedInstance];
     NSError *error;
     //录制音频模式
+    //NSParameterAssert(),无效的参数不满足，根据参数提供异常消息处理，如果是false就抛出异常，打印输出错误信息。
     [audioSession setCategory:AVAudioSessionCategoryRecord error:&error];
     NSParameterAssert(!error);
     [audioSession setMode:AVAudioSessionModeMeasurement error:&error];
@@ -191,7 +191,6 @@
             strongSelf.recordButton.enabled = YES;
             [strongSelf.recordButton setTitle:@"开始录音" forState:UIControlStateNormal];
         }
-        
     }];
     
     AVAudioFormat *recordingFormat = [inputNode outputFormatForBus:0];

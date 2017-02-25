@@ -2,6 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>华 -新加坡</key>
+	<string>zh-SG</string>
+	<key>华 - 香港的 SAR</key>
+	<string>zh-HK</string>
+	<key>华 (传统的)</key>
+	<string>zh-CHT</string>
+	<key>华 - 澳门的 SAR</key>
+	<string>zh-MO</string>
+	<key>华 -台湾</key>
+	<string>zh-TW</string>
+	<key>华 (单一化)</key>
+	<string>zh-CHS</string>
+	<key>华 -中国</key>
+	<string>zh-CN</string>
 	<key>爱沙尼亚的 -爱沙尼亚</key>
 	<string>et-EE</string>
 	<key>Faroese- 法罗群岛</key>
@@ -172,6 +186,32 @@
 	<string>uz-UZ-Latn</string>
 	<key>越南 -越南</key>
 	<string>vi-VN</string>
+	<key>英国 -澳洲</key>
+	<string>en-AU</string>
+	<key>英国 - 新西兰</key>
+	<string>en-NZ</string>
+	<key>英国 -牙买加</key>
+	<string>en-JM</string>
+	<key>英国 - 南非</key>
+	<string>en-ZA</string>
+	<key>英国 - 英国</key>
+	<string>en-GB</string>
+	<key>英国 - 美国</key>
+	<string>en-US</string>
+	<key>英国 -加勒比海</key>
+	<string>en-CB</string>
+	<key>英国 -津巴布韦</key>
+	<string>en-ZW</string>
+	<key>英国 -加拿大</key>
+	<string>en-CA</string>
+	<key>英国 -菲律宾共和国</key>
+	<string>en-PH</string>
+	<key>英国 - 千里达托贝哥共和国</key>
+	<string>en-TT</string>
+	<key>英国 -伯利兹</key>
+	<string>en-BZ</string>
+	<key>英国 -爱尔兰</key>
+	<string>en-IE</string>
 	<key>公用荷兰语 - 南非</key>
 	<string>af-ZA</string>
 	<key>阿尔巴尼亚 -阿尔巴尼亚</key>
@@ -222,45 +262,5 @@
 	<string>bg-BG</string>
 	<key>嘉泰罗尼亚 -嘉泰罗尼亚</key>
 	<string>ca-ES</string>
-	<key>华 - 香港的 SAR</key>
-	<string>zh-HK</string>
-	<key>华 - 澳门的 SAR</key>
-	<string>zh-MO</string>
-	<key>华 -中国</key>
-	<string>zh-CN</string>
-	<key>华 (单一化)</key>
-	<string>zh-CHS</string>
-	<key>华 -新加坡</key>
-	<string>zh-SG</string>
-	<key>华 -台湾</key>
-	<string>zh-TW</string>
-	<key>华 (传统的)</key>
-	<string>zh-CHT</string>
-	<key>英国 -澳洲</key>
-	<string>en-AU</string>
-	<key>英国 -伯利兹</key>
-	<string>en-BZ</string>
-	<key>英国 -加拿大</key>
-	<string>en-CA</string>
-	<key>英国 -加勒比海</key>
-	<string>en-CB</string>
-	<key>英国 -爱尔兰</key>
-	<string>en-IE</string>
-	<key>英国 -牙买加</key>
-	<string>en-JM</string>
-	<key>英国 - 新西兰</key>
-	<string>en-NZ</string>
-	<key>英国 -菲律宾共和国</key>
-	<string>en-PH</string>
-	<key>英国 - 南非</key>
-	<string>en-ZA</string>
-	<key>英国 - 千里达托贝哥共和国</key>
-	<string>en-TT</string>
-	<key>英国 - 英国</key>
-	<string>en-GB</string>
-	<key>英国 - 美国</key>
-	<string>en-US</string>
-	<key>英国 -津巴布韦</key>
-	<string>en-ZW</string>
 </dict>
 </plist>
