@@ -68,7 +68,7 @@
 }
 - (IBAction)pronounce:(UIButton *)sender {
     
-    //切换为听筒播放
+    //切换为播放模式
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
 
     AVSpeechUtterance *utterance;
@@ -111,10 +111,14 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             switch (status) {
                 case SFSpeechRecognizerAuthorizationStatusNotDetermined:
+                    /*
+                     UIControlStateDisabled与self.recordButton.enabled = NO同用才有效，不然的话没有效果
+                     */
                     self.recordButton.enabled = NO;
                     [self.recordButton setTitle:@"语音识别未授权" forState:UIControlStateDisabled];
                     break;
                 case SFSpeechRecognizerAuthorizationStatusDenied:
+                    
                     self.recordButton.enabled = NO;
                     [self.recordButton setTitle:@"用户未授权使用语音识别" forState:UIControlStateDisabled];
                     break;
@@ -237,7 +241,9 @@
     // Dispose of any resources that can be recreated.
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
     return self.languageNameArr.count;
+    
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
