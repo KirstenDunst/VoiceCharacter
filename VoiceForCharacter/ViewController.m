@@ -71,12 +71,9 @@
     //切换为播放模式
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord error:nil];
 
-    AVSpeechUtterance *utterance;
+    AVSpeechUtterance *utterance = [AVSpeechUtterance speechUtteranceWithString:self.talkMessage.text];
     //发音。  en-US：英语发音。    zh-TW:台湾语音。
-    AVSpeechSynthesisVoice *voice;
-
-    utterance = [AVSpeechUtterance speechUtteranceWithString:self.talkMessage.text];
-    voice = [AVSpeechSynthesisVoice voiceWithLanguage:_languageStr];
+    AVSpeechSynthesisVoice *voice = [AVSpeechSynthesisVoice voiceWithLanguage:_languageStr];
     utterance.voice = voice;
     utterance.volume = 1.0;
     utterance.rate = 0.5;//设置语速
