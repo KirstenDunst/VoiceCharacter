@@ -169,7 +169,7 @@
 				TargetAttributes = {
 					1F5CF7091E5FC0F000D4D26C = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = BQ9TFQKXJU;
+						DevelopmentTeam = J34X25TCYP;
 						ProvisioningStyle = Automatic;
 					};
 					1F5CF7221E5FC0F000D4D26C = {
@@ -363,11 +363,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BQ9TFQKXJU;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34X25TCYP;
 				INFOPLIST_FILE = VoiceForCharacter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zssy.AM.Fire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zssy.text;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -375,11 +378,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = BQ9TFQKXJU;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J34X25TCYP;
 				INFOPLIST_FILE = VoiceForCharacter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zssy.AM.Fire;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zssy.text;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -426,6 +432,7 @@
 				1F5CF72E1E5FC0F000D4D26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F5CF72F1E5FC0F000D4D26C /* Build configuration list for PBXNativeTarget "VoiceForCharacterUITests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +441,7 @@
 				1F5CF7311E5FC0F000D4D26C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
